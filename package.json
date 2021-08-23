@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "node seeders/seed.js",
+    "postdeploy": "node seeders/seed.js",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
