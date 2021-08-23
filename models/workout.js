@@ -29,12 +29,10 @@ const WorkoutSchema = new Schema({
             type: Number
         },
         distance: {
-            type: Number
+            type: Number,
         },
     }],
 });
-
-
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
 
