@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node seeders/seed.js && node server.js",
+    "start": "node server.js",
+    "poststart": "node seeders/seed.js",
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
